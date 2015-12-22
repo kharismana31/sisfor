@@ -22,16 +22,4 @@ class AturPenyewa extends CI_Controller {
 		$this->load->view('navbar');
 		$this->load->view('notifikasi');
 	}
-	public function getpenyewa()
-	{
-		$this->load->view('header');
-		$this->load->view('navbar');
-		$this->load->view('formpenyewaanlap_2');
-	}
-	public function setpenyewa()
-	{
-		$this->load->view('header');
-		$this->load->view('navbar');
-		$this->load->view('formpenyewaanlap_3');
-	}
 }
